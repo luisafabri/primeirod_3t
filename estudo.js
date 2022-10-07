@@ -23,7 +23,7 @@ function repete(){
     }
 }
 
-let lista = ["Banana","Uva","Abacate","Tomate"];
+let lista = ["bolo de chocolate", "Bolo de cenoura", "Bolo de laranja"];
 
 function minhaLista(){
     document.write(lista[3]);
