@@ -10,7 +10,7 @@ function total(){
   let r = 0;
 
   if(!Number(c)){
-    alert("Voce é Gay");
+    alert("tente novamente");
     document.getElementyById("Valor").value ="";
     document.getElementById("valor").focus();
     return
@@ -18,14 +18,14 @@ function total(){
 
 
    if(!Number(j)){
-    alert("Voce é Gay");
+    alert("tente novamente");
     document.getElementyById("Valor").value ="";
     document.getElementById("valor").focus();
     return
   }
 
   if(!Number(t)){
-    alert("Voce é Gay");
+    alert("tente novamente");
     document.getElementyById("Valor").value ="";
     document.getElementById("valor").focus();
     return
