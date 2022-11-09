@@ -1,10 +1,28 @@
+
+
 #calculadora {
     background: rgb(77, 216, 77);
     width: 200px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px yellowgreen;
 }
+#calculadora input:focus{
+    color:rgb(0, 0, 0);
+    background: rgb(0, 192, 176);
+}
+.spMes {
+    border-color: black;
+    border-width: 1px;
+    background:burlywood;
+
+    color: rgb(0, 0, 0);
+    text-align: start;
+    border-radius: 10px;
+}
+
+
 #calculadora input {
     background: rgb(54, 236, 124);
     color: rgb(0, 0, 0);
@@ -46,3 +64,4 @@
 #input-calcF:checked + #calculadora .calcF {
     display:block;
 }
+Footer
