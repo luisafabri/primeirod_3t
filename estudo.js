@@ -1,3 +1,4 @@
+
 function total(){
   let c = document.getElementById("valor").value;
   let j = document.getElementById("juros").value;
@@ -52,8 +53,4 @@ function subtracao(){
       document.getElementById("total").innerHTML="Total: "+moeda(r);
       //document.write("Resultado: " + moeda (r);
     }
-    
-
-
-
-  
+   
