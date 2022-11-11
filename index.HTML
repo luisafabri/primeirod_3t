@@ -2,50 +2,61 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro D</title>
-    <script src="estudo.js"></script>
-    <link rel="stylesheet" href="geral.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Primeiro D</title>
+   <script src="estudo.js"></script>
+   <link rel="stylesheet" href="geral.css">
 </head>
 
 <body>
-    <input type="checkbox" id="input-calcF">
-    <div id="calculadora">
-        <label for="input-calcF">
-            <h3>Financeira</h3>
-        </label>
-        <div class="calcF">
-            <div id="sptotal">
-                <span id="total">Total:0,00</span> <br>
-            </div>
-            Capital: <input id="valor" type="text"> <br>
-            Juros Mensais: <input id="juros" type="text"> <br>
-            Nr. de Meses: <input id="meses" type="text"> <br>
-            <button onclick="total()">Calcula</button>
-            <div class="spMes">
-                <span id="mes"></span>
-            </div>
-        </div>
-    </div>
+   <input type="checkbox" id ="input-calcF">
 
-    <input type="checkbox" id="input-calcEqSG">
-    <div id="calculadoraESC">
-        <label for="input-calcEqSG">
-            <h3>Equação<br>Segundo Grau</h3>
-        </label>
-        <div class="calcES">
-            <div id="spRaiz">
-                <span id="raiz">0,00</span> <br>
-            </div>
-            a: <input id="a" type="text"> <br>
-            b: <input id="b" type="text"> <br>
-            c: <input id="c" type="text"> <br>
-            <button onclick="calculaRaiz()">Calcula</button>
-        </div>
-    </div>
+   <div id="calculadora">
+      <label for="input-calcF">
+           <h3> Financeira </h3>
+      </label>
+      <div class="calcF"> 
 
+
+      <div id="sptotal">
+      <span id="total"> Total: 0,00</span>
+   </div>
+      Capital: <input id="valor" type="text"> <br>
+      Juros Mensais: <input id="juros" type="text"> <br>
+      Nr. de Meses: <input id="meses" type="text"> <br>
+      <button onclick="total()">Calcula</button>
+      <div class="spMes">
+         <span id="mes">Meses</span>
+      </div>
+   </div>
+</div>
+
+<input type="checkbox" id ="input-calcESqC">
+<div id="calculadoraESC">
+   <label for="input-calcEqSG">
+        <h3> Equação <br> Segundo Grau </h3>
+   </label>
+   <div class="calcES"> 
+
+
+   <div id="spRaiz">
+   <span id="raiz"> X1 e X2 </span>
+</div>
+    <input id="a" placeholder="a" type="text"> <br>
+    <input id="b" placeholder="b" type="text"> <br>
+    <input id="c" placeholder="c" type="text"> <br>
+   <button onclick="calculaRaiz()">Calcula</button>
+</div>
+
+
+
+
+
+
+
+
+</div>
 </body>
-
 </html>
