@@ -1,44 +1,42 @@
-
-
 #calculadora {
-    background: rgb(77, 216, 77);
+    background: rgb(169, 172, 171);
     width: 200px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px yellowgreen;
-}
-#calculadora input:focus{
-    color:rgb(0, 0, 0);
-    background: rgb(0, 192, 176);
+    box-shadow: 5px 5px yellow;
 }
 .spMes {
     border-color: black;
     border-width: 1px;
-    background:burlywood;
-
-    color: rgb(0, 0, 0);
+    border-style: dashed;
+    background: rgba(168, 115, 35, 0.356);
+    color: red;
     text-align: start;
     border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
 }
-
-
-#calculadora input {
-    background: rgb(54, 236, 124);
+#calculadora input:focus{
+    background: rgb(228, 179, 179);
     color: rgb(0, 0, 0);
+}
+#calculadora input {
+    background: rgb(88, 82, 82);
+    color: rgb(255, 2, 2);
     padding: 5px;
     border-radius: 5px;
 }
 #sptotal {
-    background: rgba(228, 125, 125, 0.767);
-    color: rgb(0, 255, 85);
+    background: black;
+    color: chartreuse;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #calculadora button {
-    background: rgb(6, 141, 17);
+    background: chocolate;
     color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 5px;
@@ -49,19 +47,15 @@
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
- h3 {
-     color:brown;
- }
- .calcF{
-  display: none;
-
- }
-
- #input-calcF{
+h3 {
+    color: rgb(128, 27, 27);
+}
+.calcF {
     display: none;
-
+}
+#input-calcF {
+    display: none;
 }
 #input-calcF:checked + #calculadora .calcF {
-    display:block;
-}
-Footer
+    display: block;
+} 
